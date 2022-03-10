@@ -20,11 +20,7 @@ function App() {
     // { id: 3, completed: false, title: 'Learn React'},
     // { id: 4, completed: false, title: 'Learn Java'}
   const [loading, setLoading] = React.useState(true)
-  const renderCount = useRef(0)
-
-  useEffect(() => {
-    renderCount.current = renderCount.current + 1
-  })
+  const renderCount
   
   
 useEffect(() => {
@@ -73,8 +69,7 @@ useEffect(() => {
       <TodoList todos={todos} onToggle={toggleTodo} />
       ) : loading ? null : (
         <p>No todos!</p> 
-       )}  
-       <div> I rendered {renderCount.current} times </div>   
+       )}     
        <div >
       <SearchBar placeholder="Search todo ..." data={todos} />
     </div> 

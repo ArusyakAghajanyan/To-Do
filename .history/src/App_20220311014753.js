@@ -76,7 +76,7 @@ useEffect(() => {
        )}  
        <div> I rendered {renderCount.current} times </div>   
        <div >
-      <SearchBar placeholder="Search todo ..." data={todos} />
+      <SearchBar placeholder="Search todo ..." data={todos} {}/>
     </div> 
      
     </div>

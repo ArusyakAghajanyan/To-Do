@@ -20,7 +20,7 @@ function App() {
     // { id: 3, completed: false, title: 'Learn React'},
     // { id: 4, completed: false, title: 'Learn Java'}
   const [loading, setLoading] = React.useState(true)
-  const renderCount = useRef(0)
+  const renderCount = useRef(1)
 
   useEffect(() => {
     renderCount.current = renderCount.current + 1
