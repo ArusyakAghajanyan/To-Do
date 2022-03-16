@@ -14,12 +14,12 @@ const AddTodo = React.lazy(
   )
 
 function App() {
-  const [todos, setTodos] = useState([])
+  const [todos, setTodos] = React.useState([])
     // { id: 1, completed: false, title: 'Learn HTML, CSS'},
     // { id: 2, completed: true, title: 'Learn Js'},
     // { id: 3, completed: false, title: 'Learn React'},
     // { id: 4, completed: false, title: 'Learn Java'}
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = React.useState(true)
   const renderCount = useRef(0)
   const[data,setData] = useState([])
 
@@ -72,7 +72,7 @@ useEffect(() => {
       <React.Suspense fallback={<p>Loading...</p>}>
       
       <AddTodo onCreate={addTodo} /> 
-      <SearchBar placeholder="Search todo ..." data={todos}  filterData={searchResult} />
+      <SearchBar placeholder="Search todo ..." data={todos} />
       </React.Suspense>     
       {loading && <Loader />}
       {todos.length ? (
@@ -93,3 +93,4 @@ useEffect(() => {
 
 export default App
 
+// className="App"

@@ -50,10 +50,20 @@ function SearchBar({ placeholder, data, filterData }) {
           )}
         </div>
       </div>
-   
+      {filteredData.length != 0 && (
+        <div >
+          {filteredData.slice(0, 15).map((value, key) => {
+            return (
+                <p>{value.title} </p>             
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 
 }
 
 export default SearchBar;
+// className="dataResult"
+// className="dataItem"

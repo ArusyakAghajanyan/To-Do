@@ -11,17 +11,16 @@
     padding: 15px;   
     width: 180px;
     color: black;
-    border: 1px solid gray;
   }
   
   .searchIcon {
     background-color: lightgray;  
-    border: 1px solid gray;  
+    border: 2px solid gray;  
     width: 50px;
     background-color: #EFEFEF;
     display: grid;
     place-items: center;
-    color: black;
+    color: gray;
   }
   
   input:focus {

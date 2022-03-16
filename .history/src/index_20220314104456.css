@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+/* 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -17,7 +17,7 @@ code {
   width: 600px;
 }
 .rm {
-  background: gray;
+  background: red;
   border-radius: 50%;
   color:#fff;
   border: none;
@@ -40,8 +40,8 @@ code {
   height: 64px;
   margin: 8px;
   border-radius: 50%;
-  border: 6px solid gray;
-  border-color: gray transparent gray transparent;
+  border: 6px solid blue;
+  border-color: blue transparent blue transparent;
   animation: lds-dual-ring 1.2s linear infinite;
 }
 @keyframes lds-dual-ring {
@@ -51,5 +51,5 @@ code {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 

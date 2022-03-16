@@ -50,7 +50,7 @@ function SearchBar({ placeholder, data, filterData }) {
           )}
         </div>
       </div>
-   
+    
     </div>
   );
 

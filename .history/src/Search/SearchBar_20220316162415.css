@@ -4,24 +4,22 @@
   }
   
   .search input{
-    background-color: white;   
+    background-color: lightgray;   
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
-    font-size: 14px;
+    font-size: 18px;
     padding: 15px;   
-    width: 180px;
-    color: black;
-    border: 1px solid gray;
+    width: 215px;
   }
   
   .searchIcon {
     background-color: lightgray;  
-    border: 1px solid gray;  
+    border: 2px solid gray;  
     width: 50px;
-    background-color: #EFEFEF;
+    background-color: white;
     display: grid;
     place-items: center;
-    color: black;
+    color: gray;
   }
   
   input:focus {
@@ -29,7 +27,14 @@
   }
   .searchIcon svg {
     font-size: 35px;
-  }  
+  }
+  
+  /* .dataResult {
+    margin-top: 0px;
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+    
 
   
   #clearBtn {

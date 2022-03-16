@@ -24,7 +24,7 @@ code {
 }
 
 .done {
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
 }
 
 .lds-dual-ring {

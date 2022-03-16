@@ -9,19 +9,18 @@
     border-bottom-right-radius: 0px;
     font-size: 14px;
     padding: 15px;   
-    width: 180px;
+    width: 215px;
     color: black;
-    border: 1px solid gray;
   }
   
   .searchIcon {
     background-color: lightgray;  
-    border: 1px solid gray;  
+    border: 2px solid gray;  
     width: 50px;
-    background-color: #EFEFEF;
+    background-color: white;
     display: grid;
     place-items: center;
-    color: black;
+    color: gray;
   }
   
   input:focus {
